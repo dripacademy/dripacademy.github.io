@@ -19,11 +19,15 @@ p {
     animation: glow 1.5s infinite
 }
 
+/* find a solution for having only 8 keyframes and make it not choppy */
 @keyframes glow {
 	/* carolina blue */
-	0% {text-shadow: 0px 0px 4px #4B9CD3;}
-	25% {text-shadow: 5px 3px 0px #4B9CD3;}
-	35% {text-shadow: 3px 5px 10px #4B9CD3;}
-	75% {text-shadow: 5px 3px 0px #4B9CD3;}
-	100% {text-shadow: 0px 0px 4px #4B9CD3;}
+	12.5%  {text-shadow: -5px -5px #4B9CD3;}
+	25%    {text-shadow: 0px -5px #4B9CD3;}
+	37.5%  {text-shadow: 5px -5px #4B9CD3;}
+	50%    {text-shadow: 5px 0px #4B9CD3;}
+	62.5%  {text-shadow: 5px 5px #4B9CD3;}
+	75%    {text-shadow: 0px 5px #4B9CD3;}
+	87.5%  {text-shadow: -5px 5px #4B9CD3;}
+	100%   {text-shadow: -5px 5px #4B9CD3;}
 }
