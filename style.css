@@ -16,4 +16,14 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     letter-spacing: 15px;
+    animation: glow 1.5s infinite
+}
+
+@keyframes glow {
+	/* carolina blue */
+	0% {text-shadow: 0px 0px 4px #4B9CD3;}
+	25% {text-shadow: 5px 3px 0px #4B9CD3;}
+	35% {text-shadow: 3px 5px 10px #4B9CD3;}
+	75% {text-shadow: 5px 3px 0px #4B9CD3;}
+	100% {text-shadow: 0px 0px 4px #4B9CD3;}
 }
