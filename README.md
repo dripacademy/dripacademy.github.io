@@ -1,3 +1,1 @@
-# GitHub Pages
-
-[dripacademy™](dripacademy.github.io)
+[dripacademy™](https://dripacademy.github.io)
