@@ -7,8 +7,8 @@ div {
     width: 100%;
     /*display: flex;
     justify-content: center;*/
-	display: grid;
-	place-items: center;
+    display: grid;
+    place-items: center;
 }
 
 p {
